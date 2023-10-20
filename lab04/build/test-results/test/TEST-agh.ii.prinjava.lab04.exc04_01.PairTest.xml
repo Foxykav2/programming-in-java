@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.lab04.exc04_01.PairTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-10-20T01:51:56" hostname="DESKTOP-T4IRDBL" time="0.028">
+  <properties/>
+  <testcase name="testPairEquals()" classname="agh.ii.prinjava.lab04.exc04_01.PairTest" time="0.014"/>
+  <testcase name="testPairConstructorAndGetters()" classname="agh.ii.prinjava.lab04.exc04_01.PairTest" time="0.002"/>
+  <testcase name="testPairToString()" classname="agh.ii.prinjava.lab04.exc04_01.PairTest" time="0.005"/>
+  <testcase name="testPairClone()" classname="agh.ii.prinjava.lab04.exc04_01.PairTest" time="0.001"/>
+  <testcase name="testPairHashCode()" classname="agh.ii.prinjava.lab04.exc04_01.PairTest" time="0.001"/>
+  <testcase name="testPairSetters()" classname="agh.ii.prinjava.lab04.exc04_01.PairTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
