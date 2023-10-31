@@ -39,7 +39,7 @@ public interface MyQueue<E> {
 
     /** Consider pros and cons of having a factory method in the interface
      * . This method create a new queue
-     * @return MyQueue<T>
+     * @return A new instance of MyQueue
      */
     static <T> MyQueue<T> create() {
         return new MyQueueDLLBImpl<>();

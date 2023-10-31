@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * DLinkListTest, a class that we use to test DLinkList methods
- * */
+ */
 class DLinkListTest {
     DLinkList<Integer> dLinkList;
 
@@ -17,7 +17,7 @@ class DLinkListTest {
      */
     @BeforeEach
     void setUp() {
-       dLinkList = new DLinkList<>();
+        dLinkList = new DLinkList<>();
     }
 
     /**
@@ -25,7 +25,7 @@ class DLinkListTest {
      */
     @AfterEach
     void tearDown() {
-        dLinkList=null;
+        dLinkList = null;
     }
 
     /**
@@ -38,8 +38,8 @@ class DLinkListTest {
         dLinkList.addLast(8);
         dLinkList.addLast(6);
         dLinkList.addLast(4);
-        assertEquals(3,dLinkList.numOfElems());
-        assertEquals("8 6 4",dLinkList.toString());
+        assertEquals(3, dLinkList.numOfElems());
+        assertEquals("8 6 4", dLinkList.toString());
 
     }
 
@@ -55,7 +55,7 @@ class DLinkListTest {
         dLinkList.addFirst(4);
 
         assertEquals(3, dLinkList.numOfElems());
-        assertEquals("4 6 8",dLinkList.toString());
+        assertEquals("4 6 8", dLinkList.toString());
     }
 
     /**
@@ -67,9 +67,8 @@ class DLinkListTest {
         dLinkList.addFirst(5);
         dLinkList.addFirst(46);
         dLinkList.removeLast();
-        assertEquals(1,dLinkList.numOfElems());
-        assertEquals(46,dLinkList.removeFirst());
-
+        assertEquals(1, dLinkList.numOfElems());
+        assertEquals(46, dLinkList.removeFirst());
 
 
     }
@@ -83,10 +82,10 @@ class DLinkListTest {
         dLinkList.addFirst(5);
         dLinkList.addFirst(46);
         dLinkList.removeFirst();
-        assertEquals(1,dLinkList.numOfElems());
-        assertEquals(5,dLinkList.removeFirst());
+        assertEquals(1, dLinkList.numOfElems());
+        assertEquals(5, dLinkList.removeFirst());
 
-        
+
     }
 
     /**
@@ -97,9 +96,9 @@ class DLinkListTest {
     void numOfElems() {
         dLinkList.addFirst(5);
         dLinkList.addFirst(46);
-        assertEquals(2,dLinkList.numOfElems());
+        assertEquals(2, dLinkList.numOfElems());
         dLinkList.removeLast();
-        assertEquals(1,dLinkList.numOfElems());
+        assertEquals(1, dLinkList.numOfElems());
 
     }
 
@@ -110,8 +109,8 @@ class DLinkListTest {
     void testToString() {
         dLinkList.addFirst(5);
         dLinkList.addFirst(46);
-        assertEquals(2,dLinkList.numOfElems());
-        assertEquals("46 5",dLinkList.toString());
+        assertEquals(2, dLinkList.numOfElems());
+        assertEquals("46 5", dLinkList.toString());
 
     }
 }
