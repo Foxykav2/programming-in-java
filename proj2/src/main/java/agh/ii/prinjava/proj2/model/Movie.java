@@ -8,7 +8,7 @@ public record Movie(int rank, double rating, String title, int year, String rate
                     List<String> genre, List<String> directors,
                     List<String> actors, String production) {
 
-    /**
+   /**
      * Factory method
      */
     public static Movie of(String rawLine) {
